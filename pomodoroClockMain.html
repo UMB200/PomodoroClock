@@ -1,0 +1,45 @@
+<head>
+	<title>Pomodoro clock</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="timerScript.js"></script>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="timerStyle.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+</style> 
+</head>
+<body>
+	<container>
+		<div id="pomodor">
+		<h1>Free Code Camp</h1>
+		<h2>Pomodoro clock</h2>
+		<h3 id="elapsedTimer"></h3>
+		<div id="timerDiv">
+			
+			<div>
+				<p id ="sessionPart" class="nameLabels">Session Length</p>
+				<button  id="addTimeSessionBtn" class="btn btn-success">Add</button>
+				<span class="numberSpan"  id="sessionLbl">25</span>
+				<button  id="subtructTimeSessionBtn" class="btn btn-success">Subtract</button>
+			</div>
+			<div >
+				<p id="breakPart" class="nameLabels">Break Length</p>
+				<button id="addTimeBreakBtn" class="btn btn-success">Add</button>
+				<span class="numberSpan" id="breakLbl">25</span>
+				<button  id="subtructTimeBreakBtn" class="btn btn-success">Subtract</button>
+			</div>
+		</div>
+		<div id="progressPart">
+			<button  id="resetBtn" class="btn btn-primary btn-lg">Reset</button>
+			<button  id="startBtn" class="btn btn-primary btn-lg">Start</button>
+		</div>
+		<progress id="myProgress" value="0"></progress>
+
+</div>
+	</container>
+</body> 
+<script type="text/javascript"></script>

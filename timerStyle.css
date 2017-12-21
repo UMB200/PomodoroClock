@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+	margin-top:  10px;
+	font-family: 'Roboto Slab', serif;
+	vertical-align: middle;	
+}
+h1{
+	margin: 20px;
+}
+container{
+	font-size: 20px;
+
+}
+#pomodor{
+	width: 500px;
+	height: 500px;
+	background-color: #AEAF93;
+	margin: auto;
+	border-radius: 50%;
+	
+	display: block;
+	
+	padding: 50px 0;
+}
+#progressPart {
+	margin: 20px;
+}
+.nameLabels {
+	margin: 20px;
+}
+.numberSpan {
+	padding: 40px;
+}
+#startBtn{
+	margin-right: 20px;
+}
+#myProgress {
+  width: 300px;
+  background-color: #ddd;
+  margin: auto;
+}
+
